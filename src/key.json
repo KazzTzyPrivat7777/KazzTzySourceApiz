@@ -1,0 +1,25 @@
+{
+  "keys": [
+    {
+      "apikey": "FreeLimit",
+      "limit": 30,
+      "usage": 0,
+      "createdAt": "2026-02-11",
+      "lastUsed": null
+    },
+    {
+      "apikey": "KazzPrivate",
+      "limit": 30,
+      "usage": 0,
+      "createdAt": "2026-02-11",
+      "lastUsed": null
+    },
+    {
+       "apikey": "Kazz",
+      "limit": 9999999,
+      "usage": 0,
+      "createdAt": "2026-02-11",
+      "lastUsed": null
+    }
+  ]
+}
