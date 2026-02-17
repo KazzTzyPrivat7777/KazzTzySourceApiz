@@ -34,40 +34,6 @@
         ]
       },
       { 
-  "name": "HeckAI",
-  "endpoint": "/api/ai/heckai",
-  "filename": "heckai",
-  "method": "GET",
-  "params": [
-    {
-      "name": "text",
-      "required": true,
-      "description": "Teks pertanyaan untuk HeckAI"
-    },
-    {
-      "name": "apikey",
-      "required": true,
-      "description": "API Key untuk autentikasi"}
-      ]
-      },
-      {
-  "name": "Claude Chat",
-  "endpoint": "/api/ai/claude",
-  "filename": "claude",
-  "method": "GET",
-  "params": [
-    {
-      "name": "text",
-      "required": true,
-      "description": "Pertanyaan atau teks yang ingin dikirim ke Claude AI"
-    },
-    {
-      "name": "apikey",
-      "required": true,
-      "description": "API Key untuk autentikasi"}
-      ]
-      },
-      {
     "name": "Dyron AI Chat",
     "endpoint": "/api/ai/dyronai",
     "filename": "dyronai",
@@ -608,96 +574,6 @@
             "description": "API Key untuk autentikasi"
           }
         ]
-      },
-      {
-    "name": "Angel Nick",
-    "endpoint": "/api/maker/angelnick",
-    "filename": "angelnick",
-    "method": "GET",
-    "params": [
-      {
-        "name": "text",
-        "required": true,
-        "description": "Teks/nick yang ingin ditampilkan melingkar"
-      },
-      {
-        "name": "image",
-        "required": true,
-        "description": "URL gambar pengguna"
-      },
-      {
-        "name": "apikey",
-        "required": true,
-        "description": "API Key untuk autentikasi"
-      }
-    ]
-  },
-  {
-    "name": "Dark Angel",
-    "endpoint": "/api/maker/darkangel",
-    "filename": "darkangel",
-    "method": "GET",
-    "params": [
-      {
-        "name": "text",
-        "required": true,
-        "description": "Teks/nick yang ingin ditampilkan melingkar"
-      },
-      {
-        "name": "image",
-        "required": true,
-        "description": "URL gambar pengguna"
-      },
-      {
-        "name": "apikey",
-        "required": true,
-        "description": "API Key untuk autentikasi"
-      }
-    ]
-  },
-  {
-    "name": "Cyber Spider",
-    "endpoint": "/api/maker/cyberspider",
-    "filename": "cyberspider",
-    "method": "GET",
-    "params": [
-      {
-        "name": "text",
-        "required": true,
-        "description": "Teks/nick yang ingin ditampilkan melingkar"
-      },
-      {
-        "name": "image",
-        "required": true,
-        "description": "URL gambar pengguna"
-      },
-      {
-        "name": "apikey",
-        "required": true,
-        "description": "API Key untuk autentikasi"}
-        ]
-        },
-        {
-  "name": "Dynamic Circular",
-  "endpoint": "/api/maker/dymc",
-  "filename": "dymc",
-  "method": "GET",
-  "params": [
-    {
-      "name": "text",
-      "required": true,
-      "description": "Teks/nick yang ingin ditampilkan melingkar"
-    },
-    {
-      "name": "image",
-      "required": true,
-      "description": "URL gambar pengguna"
-    },
-    {
-      "name": "apikey",
-      "required": true,
-      "description": "API Key untuk autentikasi"}
-      ]
       },
       {
   "name": "Brat Nezuko Generator",
@@ -1848,7 +1724,7 @@
           }
         ]
       },
-     {
+      {
         "name": "FakeNotifDANA",
         "endpoint": "/api/maker/fakenotifdana",
         "filename": "fakenotifdana",
@@ -2041,8 +1917,8 @@
           }
         ]
       },
-      { 
-           "name": "Fake Free Fire Max",
+      {
+        "name": "Fake Free Fire Max",
         "endpoint": "/api/maker/fakeff",
         "filename": "fakeff",
         "method": "GET",
@@ -2063,9 +1939,9 @@
             "description": "API Key untuk autentikasi"
           }
         ]
-        },
-        {   
-             "name": "Fake Free Fire Max New Lobby",
+      },
+      {
+             "name": "Fake Ff New Lobby",
         "endpoint": "/api/maker/fakeff2",
         "filename": "fakeff2",
         "method": "GET",
@@ -2078,7 +1954,7 @@
           {
             "name": "bg",
             "required": false,
-            "description": "Nomor background (1 - 60). Jika kosong akan random"
+            "description": "Nomor background (1 - 30). Jika kosong akan random"
           },
           {
             "name": "apikey",
@@ -2086,8 +1962,8 @@
             "description": "API Key untuk autentikasi"
           }
         ]
-        },
-        {               
+      },
+      {
         "name": "Fake Free Fire Duo",
         "endpoint": "/api/maker/fakeffduo",
         "filename": "fakeffduo",
@@ -2114,72 +1990,6 @@
             "description": "API Key untuk autentikasi"
           }
         ]
-      },
-      {
-  "name": "Hp Jadul Nokia",
-  "endpoint": "/api/maker/nokia",
-  "filename": "nokia",
-  "method": "GET",
-  "params": [
-    {
-      "name": "nama",
-      "required": true,
-      "description": "Nama yang ingin ditampilkan"
-    },
-    {
-      "name": "text",
-      "required": true,
-      "description": "Teks yang ingin ditampilkan"
-    },
-    {
-      "name": "apikey",
-      "required": true,
-      "description": "API Key untuk autentikasi"}
-      ]
-      },
-      {
-  "name": "Ephoto Styles",
-  "endpoint": "/api/maker/ephoto3",
-  "filename": "ephoto3",
-  "method": "GET",
-  "params": [
-    {
-      "name": "q",
-      "required": true,
-      "description": "Teks / nickname yang ingin ditampilkan pada gambar"
-    },
-    {
-      "name": "style",
-      "required": true,
-      "description": "Pilih style: ephoto3, ephoto4, ephoto5, ephoto6"
-    },
-    {
-      "name": "apikey",
-      "required": true,
-      "description": "API Key untuk autentikasi"}
-      ]
-      },
-      {
-  "name": "Flaming Styles",
-  "endpoint": "/api/maker/flaming",
-  "filename": "flaming",
-  "method": "GET",
-  "params": [
-    {
-      "name": "q",
-      "required": true,
-      "description": "Teks yang ingin ditampilkan. Format: nama|warna"
-    },
-    {
-      "name": "style",
-      "required": true,
-      "description": "Pilih style: flaming1, flaming2, flaming3, flaming4, flaming5, flaming6"
-    },
-    {
-      "name": "apikey",
-      "required": true,
-      "description": "API Key untuk autentikasi"}
-      ]
       },
       {
         "name": "QC Image",
@@ -4297,7 +4107,7 @@
           }
         ]
       },
-      {     
+      {       
         "name": "Short URL",
         "endpoint": "/api/tools/shorturl",
         "filename": "shorturl",
@@ -4739,7 +4549,25 @@
           }
         ]
       },
-      {    
+      {   
+        "name": "GitHub Clone Downloader",
+        "endpoint": "/api/download/gitclone",
+        "filename": "gitclone",
+        "method": "GET",
+        "params": [
+          {
+            "name": "url",
+            "required": true,
+            "description": "GitHub repository URL"
+          },
+          {
+            "name": "apikey",
+            "required": true,
+            "description": "API Key untuk autentikasi"
+          }
+        ]
+      },
+      {  
         "name": "MF Downloader",
         "endpoint": "/api/download/mfdl",
         "filename": "mfdl",
@@ -4789,7 +4617,7 @@
           {
             "name": "apikey",
             "required": true,
-            "description": "API Key untuk autentikasi"    
+            "description": "API Key untuk autentikasi"      
           }
         ]
       }
